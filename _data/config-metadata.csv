@@ -2,7 +2,6 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Fragrance,,,DCTERMS.title,headline
 perfumer,Perfumer,,,DCTERMS.creator,creator
 house,Perfume House,,,DCTERMS.description,description
-popularity,Community Rating,,,
 notes,Notes,,,,
 accords,Accords,,,,
 identifier,Source Identifier,,,,
@@ -10,3 +9,4 @@ year,Released,,,DCTERMS.date,dateCreated
 country,Country,,,DCTERMS.coverage,contentLocation
 latitude,,,,DCTERMS.spatial,latitude
 longitude,,,,DCTERMS.spatial,longitude
+popularity,Community Rating,,,
