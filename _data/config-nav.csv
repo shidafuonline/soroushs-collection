@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
 Home,/,
-Browse,/browse.html,
-Notes,/notes.html,
-Accords,/accords.html,
+All Fragrances,/browse.html,
+Top Notes,/notes.html,
+Top Accords,/accords.html,
 Map,/map.html,
-Timeline,/timeline.html,
+Release Timeline,/timeline.html,
 Data,/data.html,
 About,/about.html,

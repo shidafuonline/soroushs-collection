@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: objects/header_img_skin.jpg
+featured-image: objects/cabinet.jpg
 featured-image-alt-text: a close up image of medium-toned skin # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
 home-title-y-padding:  # the margin from the top your title portion will appear.
@@ -70,9 +70,9 @@ year-nav-increment: 1
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,perfumer,house,year,country,, accords, notes, popularity,type,format,display_template,image_full,image_small,image_thumb"
+metadata-export-fields: "title,perfumer,house,year,country,accords,notes,popularity,type,format,display_template,image_full,image_small,image_thumb"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "title,perfumer,house,year,country,parfumo_accords,fragrantica_accords,house_notes,standard_notes,mode_gender,percentage"
+metadata-facets-fields: "title,perfumer,house,year,country,accords,notes,popularity,image_full,image_small,image_thumb"
 
 ##########
 # Compound Objects 

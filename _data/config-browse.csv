@@ -1,12 +1,11 @@
 field,display_name,btn,hidden,sort_name,facet_name
-title,,false,true,title
+title,,false,true,,Fragrance
+perfumer,,false,true,Perfumer,Perfumer
 house,,false,false,House,house
-perfumer,,false,true,Perfumer,perfumer
-year,,false,true,Year,year
+date,,false,true,Release Year,Release Year
 country,,false,true,Country,Country
-parfumo_accords,,false,true,Accords (Parfumo),Accords (Parfumo)
-fragrantica_accords,,false,true,Accords (Fragrantica),Accords (Fragrantica)
-house_notes,,false,true,Notes (Fragrance House),Notes (Fragrance House)
-standard_notes,,false,true,Notes (Standardized),Notes (Standardized)
-mode_gender,,,true,Gender,Gender
+accords,,false,true,,Accords (Parfumo)
+notes,,false,true,,Notes
+consolidated_notes,,false,true,,Notes (General)
+popularity,Rating,,true,Rating,Rating
 

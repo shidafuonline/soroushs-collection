@@ -1,6 +1,6 @@
 field,display_name,search
-title,Title,true
-year,Year,true
-house,perfume_house,true
+title,Fragrance,true
+date,Released,true
+house,Fragrance House,true
 perfumer,Perfumer,true
 country,Country,true
