@@ -34,15 +34,15 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # NOTES (prev. SUBJECTS) PAGE
 #
-notes-fields: standard_notes # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-notes-min: 5 # min size for subject cloud, too many terms = slow load time!
+notes-fields: consolidated_notes # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+notes-min: 3 # min size for subject cloud, too many terms = slow load time!
 notes-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # ACCORDS (prev. LOCATIONS) PAGE
 #
-accords-fields: all_accords # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-accords-min: 5 # min size for subject cloud, too many terms = slow load time!
+accords-fields: accords # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+accords-min: 3 # min size for subject cloud, too many terms = slow load time!
 accords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
@@ -70,7 +70,7 @@ year-nav-increment: 1
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,perfumer,house,year,country,parfumo_accords,fragrantica_accords,house_notes,standard_notes,mode_gender,percentage,identifier,type,format,display_template,image_full,image_small,image_thumb"
+metadata-export-fields: "title,perfumer,house,year,country,, accords, notes, popularity,type,format,display_template,image_full,image_small,image_thumb"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "title,perfumer,house,year,country,parfumo_accords,fragrantica_accords,house_notes,standard_notes,mode_gender,percentage"
 
@@ -99,7 +99,7 @@ search-child-objects: true # true / false - if true, child objects will appear o
 navbar-color: dark
 # navbar background color, https://getbootstrap.com/docs/5.3/utilities/background/
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: "bg-secondary"
+navbar-background: "bg-primary"
 
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
