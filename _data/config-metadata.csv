@@ -1,0 +1,15 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,DCTERMS.title,headline
+house,Perfume House,,,DCTERMS.description,description
+parfumo_accords,Accords (Parfumo),true,,DCTERMS.subject,keywords
+fragrantica_accords,Accords (Fragrantica),true,,DC
+house_notes,Listed Notes,,,,
+standard_notes,Community Notes,,,,
+mode_gender,Gender
+percentage,,
+identifier,Source Identifier,,,,
+perfumer,Perfumer,,,DCTERMS.creator,creator
+year,Year released,,,DCTERMS.date,dateCreated
+country,Country,,,DCTERMS.coverage,contentLocation
+latitude,,,,DCTERMS.spatial,latitude
+longitude,,,,DCTERMS.spatial,longitude
