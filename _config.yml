@@ -10,22 +10,22 @@
 # site domain, full URL to the production location of your collection
 url: https://shidafuonline.github.io #secure web protocol/username.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /skinscents
+baseurl: /soroush-collection #the name of your repository, with a leading slash
 # location of code, the full url to your github repository
-source-code: https://github.com/shidafuonline/skinscents
+source-code: https://github.com/shidafuonline/soroush-collection
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Skin Scent Demo Collection
+title: Soroush's Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 # code: tagline: 'What does your-skin-but-better smell like?'
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A micro-database of 'your-skin-but-better fragrances"
+description: "The several smells of Soroush"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: fragrance; perfume; skin scent;
+keywords: fragrance; perfume;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: shidafuonline
 
@@ -34,7 +34,7 @@ author: shidafuonline
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: skinscent-metadata-v3
+metadata: soroush-metadata
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -50,8 +50,8 @@ metadata: skinscent-metadata-v3
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-# organization-name: "Leo Litke's Skin Scent CollectionBuilder Demo"
-# organization-link: https://www.fragrantica.com/@knightcore
+# organization-name: "Leo Litke's CollectionBuilder Test"
+# organization-link: 
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
 
 ##########
