@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://shidafuonline.github.io #secure web protocol/username.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /soroush-collection #the name of your repository, with a leading slash
+baseurl: /soroushs-collection #the name of your repository, with a leading slash
 # location of code, the full url to your github repository
 source-code: https://github.com/shidafuonline/soroush-collection
 
