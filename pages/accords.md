@@ -4,7 +4,7 @@ layout: cloud
 permalink: /accords.html
 # Default accords (prev. locations) page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.locations-fields" UNLESS you're changing the field name in theme.yml
-cloud-fields: all_accords
+cloud-fields: accords
 ---
 
 ## Browse Accords
